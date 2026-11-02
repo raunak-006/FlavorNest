@@ -28,7 +28,7 @@
     width: 250px;
 }
 .logo{
-    background-image: url("logo_image.png");
+    background-image: url("Images/logo_image.png");
     height: 90px;
     background-size: cover;
 }
@@ -59,7 +59,7 @@
 .hero-section{
     height: 750px;
     width: 100%;
-    background-image: url("hero_image2.png");
+    background-image: url("Images/hero_image2.png");
     background-size: cover;
     /* background-size: */
 }
