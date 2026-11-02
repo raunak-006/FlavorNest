@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+    
+}
+
+/* HEADER */
+
+/* NAVBAR and HERO SECTION */
+.hover:hover{
+    outline: 2px solid orange;
+    border-radius: 5px;
+}
+.navbar{
+    height: 90px;
+    /* background-color: rgb(0 0 0); */
+    /* background-image: url("hero_image.png"); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .9rem;
+}
+.nav-logo{
+    height: 90px;
+    width: 250px;
+}
+.logo{
+    background-image: url("logo_image.png");
+    height: 90px;
+    background-size: cover;
+}
+.nav-sections div{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.nav-sections{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+}
+.treserve{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.treserve:hover{
+    background-color: orange;
+}
+.hero-section{
+    height: 750px;
+    width: 100%;
+    background-image: url("hero_image2.png");
+    background-size: cover;
+    /* background-size: */
+}
+.hero-intro{
+    height: 300px;
+    width: 500px;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    /* text-align: center; */
+}
+#welcome{
+    color: rgb(201, 201, 201);
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+#h1{
+    color: white;
+    font-size: 5rem;
+    font-family:'Times New Roman', Times, serif
+}
+#h2{
+    color: orange;
+    font-size: 5rem;
+    font-family:'Times New Roman', Times, serif
+}
+#massage{
+    color: white;
+    padding-top: .5rem;
+    font-size: 1.2rem;
+}
+.more{
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 3rem;
+}
+.explore{
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore:hover{
+    outline: 2px solid white;
+}
+.watchStory{
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 3rem;
+    border-radius: 25px;
+}
+.watchStory i{
+    height: 50px;
+    width: 50px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .5rem;
+}
+.whover:hover{
+    outline: 2px solid white; 
+}
+.sDown{
+    height: 12rem;
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+/* MAIN */
+
+main{
+    background-color: rgb(44, 30, 9);
+    border: 1px solid black;
+}
+.sec{
+    background-color: rgb(255, 239, 226);
+    /* border: 2px solid black; */
+    margin: 3rem;
+}
+.innersec{
+    padding : 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seemore a{
+    font-size: .9rem;
+    color: rgb(28, 28, 28);
+}
+.outerBox{
+    height: 380px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(255, 144, 60);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.box a{
+    font-size: .9rem;
+    color: white;
+}
+.box_image{
+    height: 220px;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.footer1{
+    height: 90px;
+    background-color: rgb(23, 16, 5);
+    /* background-image: url("hero_image.png"); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .8rem;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.fhover:hover{
+    outline: 2px solid orange;
+    border-radius: 5px;
+}
+.footer2{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("hero_image.png"); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+}
+.footer2 i{
+    color: red;
+}
